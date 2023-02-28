@@ -40,5 +40,11 @@ public class TreeSetExample {
             System.out.print(s + " ");
         }
         System.out.println("\n");
+
+        //범위 검색( 80 <= score < 90)
+        rangeSet = scores.subSet(80, true, 90, false);
+        for (Integer s : rangeSet) {
+            System.out.print(s + " ");
+        }
     }
 }
