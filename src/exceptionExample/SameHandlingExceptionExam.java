@@ -3,7 +3,7 @@ package exceptionExample;
 /**
  * 두개 이상의 예외를 하나의 catch 블록에서 동일하게 처리하고 싶을때는 | 기호로 연결
  */
-public class SameHandleingExceptionExam {
+public class SameHandlingExceptionExam {
     public static void main(String[] args) {
         String[] array = {"150", "200", null, "1oo"};
 
