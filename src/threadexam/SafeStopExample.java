@@ -2,7 +2,7 @@ package threadexam;
 
 public class SafeStopExample {
     public static void main(String[] args) {
-        PrintThread printThread = new PrintThread();
+        PrintThread2 printThread = new PrintThread2();
         printThread.start();
 
         try {
@@ -10,6 +10,5 @@ public class SafeStopExample {
         } catch (InterruptedException e) {
         }
 
-        printThread.setStop(true);
     }
 }
